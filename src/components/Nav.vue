@@ -4,7 +4,7 @@
         <router-link :to="{name:'transaction-route'}">Transactions</router-link>
         <router-link :to="{name:'transaction-details-route'}">Transactions Detail</router-link>
 
-        <router-link to="/">Budgets</router-link>
+        <router-link to="/students">Students</router-link>
         <router-link to="/">Reports</router-link>
         <router-link to="/">Settings</router-link>
     </nav>

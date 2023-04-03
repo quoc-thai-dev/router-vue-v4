@@ -1,0 +1,19 @@
+{
+    "students":[
+        {
+            "id":1,
+            "name":"Quốc Thái",
+            "point":9
+        },
+        {
+            "id":2,
+            "name":"Tố Uyên",
+            "point":5
+        },
+        {
+            "id":2,
+            "name":"Lành Siêu Bịp",
+            "point":5
+        }
+    ]
+}

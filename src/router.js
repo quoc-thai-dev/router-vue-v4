@@ -4,6 +4,7 @@ import Home from './pages/home'
 import Product from './pages/product'
 import Transaction from './pages/transactions'
 import TransactionDetail from './pages/transactions-detail'
+import Students from '@/pages/student.vue'
 import NotFound404 from './pages/errors/404.vue'
 const routes=[
     {
@@ -27,6 +28,10 @@ const routes=[
     {
         path:"/ts",
         redirect:"/transactions"
+    },
+    {
+        path:"/students",
+        component:Students
     },
     {
         path:'/:pathMatch(.*)*',
